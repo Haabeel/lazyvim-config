@@ -21,3 +21,5 @@ vim.api.nvim_create_autocmd("CursorHold", {
 
 -- scroll offset
 vim.o.scrolloff = 0
+
+vim.opt.wildignore:append({ "node_modules/**" })

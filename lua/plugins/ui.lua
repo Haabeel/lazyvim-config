@@ -57,4 +57,7 @@ return {
       timeout = 5000,
     },
   },
+  {
+    "DaikyXendo/nvim-material-icon",
+  },
 }

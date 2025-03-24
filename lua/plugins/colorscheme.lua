@@ -41,4 +41,17 @@ return {
       })
     end,
   },
+  {
+    "nobbmaestro/nvim-andromeda",
+    name = "andromeda",
+    priority = 1000,
+    dependencies = {
+      { "tjdevries/colorbuddy.nvim", branch = "dev" },
+    },
+    config = function()
+      require("andromeda").setup({
+        transparent_bg = true,
+      })
+    end,
+  },
 }
